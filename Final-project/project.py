@@ -31,11 +31,11 @@ AI_DIFFICULTY = 4
 # Initialize Pygame
 pygame.init()
 
-# mixer module for sounds
-pygame.mixer.init()
-pygame.mixer.music.load("/mnt/c/Ammar/CS50/Final-Project/Static/Sounds/game-background-sound.ogg")
-pygame.mixer.music.play(-1)
-pygame.mixer.music.set_volume(0.5)
+# # mixer module for sounds
+# pygame.mixer.init()
+# pygame.mixer.music.load("/mnt/c/Ammar/CS50/Final-Project/Static/Sounds/game-background-sound.ogg")
+# pygame.mixer.music.play(-1)
+# pygame.mixer.music.set_volume(0.5)
 
 myfont = pygame.font.SysFont("monospace", 75)
 
